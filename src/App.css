@@ -1,0 +1,335 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.gap-3{
+  gap: 3px;
+}
+ul li{
+  list-style: none;
+}
+.li-nav{
+  color: #23AD77;
+  margin-bottom: 15px;
+}
+.body{
+  background-image: url('img/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.background{
+  top: 220px;
+  left: 59px;
+  z-index: -1;
+  width: 1215px;
+  animation-name: top-down;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes top-down {
+  0%{
+      transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+.title{
+  position: absolute;
+  top: 248px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+form{
+  width: 50%;
+  margin-top: 300px !important;
+}
+form input{
+  width: 100%;
+  border-radius: 42px;
+  outline: none;
+  margin-bottom: 15px;
+  border: none;
+  padding: 12px;
+  border: 1px solid #0000003b;
+}
+form select option{
+  width: 100% !important;
+  border-radius: 42px !important;
+  outline: none !important;
+  margin-bottom: 15px !important;
+  border: none !important;
+  padding: 12px !important;
+  border: 1px solid #0000003b !important;
+}
+.mr-auto{
+  margin-right: auto !important;
+}
+.inputPaypal{
+  padding: 16px;
+  border-radius: 25px;
+  border: 1px solid white;
+  text-align: left;
+  background: #F2F2F2;
+  outline: none;
+}
+.div-sub-1{
+  height: 509px !important;
+}
+form select {
+  width: 100% !important;
+  border-radius: 42px !important;
+  outline: none !important;
+  margin-bottom: 15px !important;
+  border: none !important;
+  padding: 12px !important;
+  padding-right: 30px !important;
+  color: hsl(0, 0%, 50%) !important;
+  border: 1px solid #0000003b !important;
+}
+form a{
+  color: white;
+  background-color: #3c7098;
+  border-radius: 25px;
+  text-decoration: none;
+  padding: 16px 80px;
+  width: 100% !important;
+  border: 0px;
+  display: block;
+  text-align: center;
+  font-weight: 700;
+}
+form p{
+  font-weight: 700;
+}
+form p span {
+  color: #23AD77;
+}
+
+/* LOG IN */
+.input-log{
+  padding-right: 40px !important;
+  border-radius: 16px !important;
+}
+.input-div{
+  position: relative;
+}
+.input-div img{
+  position: relative;
+  right: 9px;
+  top: -54px;
+}
+
+.span-log{
+  float: left;
+    display: block;
+    margin-top: -33px;
+    color: rgba(0, 0, 0, 50%);
+    font-weight: 700;
+}
+.a-log{
+  margin-top: 3rem;
+}
+/* Home */
+.tit{
+  margin-top: -154px;
+  margin-right: 28%;
+}
+.background-home{
+  width: 1200px;
+  margin-right: 63px;
+  margin-top: 56px;
+}
+.home{
+  background-image: url('img/Group\ 1000004494.png') ;
+  background-color: white;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.store{
+  margin-right: 30%;
+  margin-top: 1.7rem;
+}
+.mobile{
+  margin-top: 1.7rem;
+  margin-right: 10%;
+}
+.slid{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+.slide-corsat{
+  margin-top: 24rem !important;
+}
+.search-icon{
+  position: absolute;
+  right: 25px;
+  top: 21px;
+}
+.slide-search input{
+    width: 100%;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    padding: 16px 32px 16px 16px;
+    background-color: #22ad7540;
+}
+.slide-corsat button{
+  top: 106% !important;
+}
+.card-corsat{
+  width: 340px !important;
+}
+.sec1-home{
+  margin:6rem 0px 0px !important;
+  max-width: 100% !important;
+  padding: 0px;
+}
+.slider2{
+  margin-top: 23rem !important;
+}
+.sec1-home img{
+  max-width: 100%;
+}
+.sec2-home{
+  margin-top: -160px;
+}
+.sec3-home{
+  margin: 14rem 0px 0px;
+}
+.pointer{
+  cursor: pointer;
+}
+.footer-home{
+  background-image: url('img/Ellipse\ 81.png');
+  background-color: white;
+  height: 40rem;
+  background-size: cover;
+  background-position-y: -179%;
+  position: relative;
+}
+.footer-home .center{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, 23%);
+}
+.home1{
+  background-size: cover;
+  padding-top: 5rem;
+}
+.slick-prev , .slick-next{
+  color: rgba(0, 0, 0, 0.274) !important;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50% !important;
+  border: 1px solid rgba(0, 0, 0, 0.274) !important;
+  position: absolute !important;
+  top: 115% !important;
+  right: 43% !important;
+  display: flex !important;
+  padding: 0px !important;
+  z-index: 2 !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.slick-prev:before, .slick-next:before{
+  color: rgba(0, 0, 0, 0.274) !important;
+}
+.slick-next{
+  left: 45% !important;
+}
+.slick-prev:hover , .slick-next:hover{
+  background-color: #23AD77 !important;
+}
+.slider{
+  margin-bottom: 10rem !important;
+  position: relative;
+}
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #23AD77 !important;
+}
+.slick-dots li button:before{
+  font-size: 16px !important;
+}
+.card{
+  width: 95%;
+  height: 480px;
+  border-radius: 30px;
+  padding: 24px;
+  box-shadow: 0px 0px 5px 1px rgba(128, 128, 128, 0.445);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin: 0px 12px 20px !important;
+  
+}
+.imgcard5{
+  width: 58px;
+  height: 15px;
+  margin: 0px auto;
+  margin-bottom: 2px !important;
+}
+/* CART */
+.div-cart{
+  margin-top: 23rem !important;
+}
+a{
+  text-decoration: none !important;
+}
+.bg-blue{
+  background-color: #3c7098;
+  border: none;
+  color: white;
+}
+a:hover{
+  color: white !important;
+}
+.box-cart{
+  border-radius: 30px;
+  padding: 24px;
+  box-shadow: 0px 0px 5px 1px gray;
+  height: 816px;
+  width: 580px;
+  background-color: white;
+}
+.box-cart-1{
+  height: auto;
+}
+.input-credit{
+  background-color: #F2F2F2;
+  border-radius: 25px;
+  padding: 15px;
+  border: 1px solid white;
+  outline: none;
+  width: 100%;
+}
+.curser{
+  cursor: pointer;
+}
+.div-sub{
+  width: 564px;
+  height: 309px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 16px 24px;
+  margin: 12rem auto 18rem;
+  box-shadow: 0px 0px 5px 2px gray;
+}
+.para-sub{
+  width: 100%;
+  text-align: center;
+  background: #f2f2f2;
+  padding: 16px;
+  border-radius: 30px;
+  color: gray;
+  margin: 0px;
+}

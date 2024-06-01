@@ -1,0 +1,1 @@
+export const baseurl = 'https://srv1096-files.hstgr.io/1c0420cca648cdc8/files/wahg.app'
